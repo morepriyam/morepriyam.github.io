@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["X5873NL7XM.com.mieweb.pulse"],
+        "components": [
+          { "/": "/pulse/open*", "comment": "Pairing links" },
+          { "/": "/pulse/watch*", "comment": "Watch links (later phase)" }
+        ]
+      }
+    ]
+  }
+}
