@@ -25,7 +25,7 @@ The parameters are in the fragment, so GitHub never receives them.
 - **iOS:** "Get Pulse" copies the link (Safari needs a tap for that) and opens the App Store.
 - **Both:** "Already have Pulse? Open it" opens `pulsecam://?<fragment>`.
 - **Desktop:** a QR of the same link.
-- A dashed debug box shows what the page read (never the token), including the referrer length.
+- The browser console logs what the page read (never the token), including the referrer length.
 
 ## Checks
 
