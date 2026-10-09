@@ -9,7 +9,7 @@ A stand-in for `mieweb.github.io` while testing Universal Links / App Links for 
 | `.nojekyll` | Publish as-is, so `.well-known/` is served. |
 | `.well-known/apple-app-site-association` | iOS: `X5873NL7XM.com.mieweb.pulse` handles `/pulse/open*` and `/pulse/watch*`. |
 | `.well-known/assetlinks.json` | Android: `com.mieweb.pulse` signed with the two local debug keys (Expo's default `android/app/debug.keystore` and `~/.android/debug.keystore`). |
-| `pulse/open/index.html` | The page a pairing link lands on when Pulse is not installed. |
+| `pulse/open.html` | Served at `/pulse/open` (no trailing-slash redirect). The page a pairing link lands on when Pulse is not installed. |
 
 A pairing link looks like:
 
